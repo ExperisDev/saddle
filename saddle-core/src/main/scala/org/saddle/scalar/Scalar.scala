@@ -17,10 +17,8 @@ package org.saddle.scalar
 
 import java.util.NoSuchElementException
 
-import org.saddle.data.{Arithmetic, MetaValue}
+import org.saddle.data.{Data, MetaValue}
 import org.saddle.{ORD, ST}
-
-trait Data extends Arithmetic
 
 /**
   * Scalar wrapper for a single element of a vector-like container.
