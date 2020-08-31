@@ -1,5 +1,3 @@
 package org.saddle.data
 
-trait Data {
-
-}
+trait Data extends Arithmetic
